@@ -1,0 +1,8 @@
+API_KEY = 'YOUR TOKEN HERE'
+API_KEY_SECRET = 'YOUR TOKEN HERE'
+BEARER_TOKEN = 'YOUR TOKEN HERE'
+USER_ACCESS_TOKEN = 'YOUR TOKEN HERE'
+USER_ACCESS_TOKEN_SECRET = 'YOUR TOKEN HERE'
+
+if 'YOUR TOKEN HERE' in (API_KEY, API_KEY_SECRET, BEARER_TOKEN, USER_ACCESS_TOKEN, USER_ACCESS_TOKEN_SECRET):
+    raise ValueError('Please request your Twitter API tokens on developer.twitter.com and place them in api_secrets.py. More info in README.md.')
